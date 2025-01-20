@@ -1,0 +1,6 @@
+test:
+  stage: test
+  script:
+    - Write-Output "Hello World!" > ./source/file.txt
+  tags:
+    - windows
